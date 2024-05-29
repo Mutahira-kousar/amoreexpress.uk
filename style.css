@@ -1,0 +1,552 @@
+*{
+    font-family:  system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Basic styling for the navbar */
+.navbar {
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #333;
+   padding-left: 40rem;
+    height: 30px; 
+}
+
+#select1 {
+    background-color: #333;/* Dropdown background color */
+    color: #fff; /* Dropdown text color */
+   font-size: 15px;
+    border: none; /* Remove default border */
+   
+    
+}
+
+
+                                                             /* header */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+    background-color: #c866e8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+   
+    
+}
+.logo img{
+    margin-left: 155px;
+    height: 25px;
+}
+
+
+.right ul li{
+    list-style: none;
+    
+
+}
+.right ul{
+    padding-top: 5px;
+    display: flex;
+    gap: 40px; 
+   
+}
+
+select {
+    background-color: #c866e8;/* Dropdown background color */
+    color: #fff; /* Dropdown text color */
+   font-size: 15px;
+    border: none; /* Remove default border */
+   
+    
+}
+
+button {
+    background-color:  #650e83;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 12px 15px; /* Adjust padding as needed */
+    margin-left: 8px; /* Add some space between the button and other menu items */
+    cursor: pointer;
+   
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+                                                   /* main container */
+/* banner */
+.banner{
+    background-image: url('images/Untitled\ design\ \(1\).png'); /* Add your image path here */
+    background-size: cover; /* Adjust the size of the background image */
+    /* padding: 10px 20px; Add padding from left and right  */
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+   
+}
+
+.banner img{
+    height: 80vh;
+   
+    
+    
+}
+.simple{
+   font-weight: bolder;
+}
+
+.title{
+  
+   padding-right: 25rem;
+   margin-top: 6rem; 
+    margin-bottom: 2rem;  
+    font-size: 3rem;
+    line-height: 3.75rem;
+   color:  #c866e8; 
+    word-spacing: 10px;
+    font-family:  system-ui, sans-serif;
+}
+
+
+
+.sub-title{
+    padding-right: 25rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-size: 24px;
+    font-family:  system-ui, sans-serif;
+
+}
+.btn{
+    padding-right: 25rem;
+    /* padding-top: 3rem;  */
+}
+.btn1{
+    background-color:  #c866e8;
+    color: #ffffff; /* White text */
+    border: 2px solid #c866e8;  /* No border */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-size: 15px;
+}
+.btn1:hover{
+   background-color: #650e83;
+    
+    }
+.btn-chat{
+    background-color: transparent;
+    border: 2px solid white;
+    color: #ffffff; /* White text */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-size: 15px;
+}
+.btn-chat:hover{
+    border-color: #650e83;
+    color: #650e83;
+}
+
+
+
+button i{
+    margin-left: 6px;
+}
+
+                                                          /* second div */
+.content{
+
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 3rem;
+
+}
+h2{
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-family: system-ui, sans-serif ;
+}
+
+h3{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333;
+    font-weight: normal;
+}
+h4{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    color: #650e83;
+    font-family: system-ui, sans-serif ; ;
+}
+
+p{
+    margin-top: 1rem;
+}
+
+
+                                                           /* grid */
+.grid{
+    
+   
+    background-color: white;
+    width: 65%;
+    margin-left: 18rem;
+    
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    padding: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Shadow for the dropdown */
+    z-index: 1;
+    
+}
+
+.div1 {
+    justify-self: start; /* Align div1 to the start (left) of the grid */
+}
+
+.div2 {
+    justify-self: end; /* Align div2 to the end (right) of the grid */
+}
+
+#grid-title{
+    font-weight: normal;
+    font-size: 2.2rem;
+    line-height: 2.75rem;
+    margin-bottom: .75rem;
+
+}
+
+.card{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    grid-column: 1/ -1;
+}
+.item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 20px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for the dropdown */
+    border-radius: 15px;
+}
+
+#icon {
+    margin-bottom: 10px; /* Optional: space between icon and text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make it a circle */
+   
+    margin-bottom: 10px; /* Optional: space between icon and text */
+    font-size: 24px; /* Adjust the size of the icon */
+    color: #333; /* Color of the icon */
+}
+#icon i{
+    color: white;
+}
+.icon-energy{
+    background-color: rgb(80, 159, 205); /* Background color of the circle */
+    
+}
+.icon-telecom{
+    background-color: rgb(34, 159, 153);
+
+}
+.icon-insurance{
+    background-color: rgb(232, 104, 57);
+}
+.icon-payment{
+    background-color:  #c866e8;
+}
+.icon-water{
+    background-color: rgb(18, 234, 234);
+}
+
+
+
+.btn-trans{
+    background-color: transparent;
+    border: 2px solid #898789;
+    color:#898789; /* White text */
+    padding: 10px 20px; 
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-size: 15px;
+}
+.btn-trans:hover{
+    border-color: #706f70;
+    background-color:#f0edf0;
+}
+
+
+#item-title{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    padding-bottom: 1rem;
+}
+
+
+                                                 /* essential sevices */
+.content1{
+
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 3rem;
+
+}
+
+                                                        /* second card items */
+.grid2{
+    margin-top: 0px;
+    background-color: white;
+    width: 65%;
+    margin-left: 18rem;
+    
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    padding: 1rem;
+    
+}
+.card1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+    width: 100%;
+    grid-column: 1/ -1;
+}
+
+.heading{
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-family: system-ui, sans-serif ;
+}
+.item p{
+    margin-bottom:2rem;
+}
+.icon-sorted{
+    background-color:orange;
+}
+.icon-business{
+    background-color: rgb(74, 150, 236);
+}
+.icon-help{
+    background-color: rgb(32, 182, 32);
+}
+.btn-find{
+   
+    
+    color:white; /* White text */
+    padding: 10px 20px; 
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    width: 100%;
+    font-size: 15px;
+}
+
+#b1{
+    background-color:orange;
+}
+#b2{
+    background-color: rgb(74, 150, 236);
+}
+#b3{
+    background-color: rgb(32, 182, 32);
+}
+
+
+                                                    /* <!-- text with pitcher portion --> */
+
+.grid3{
+    margin-top: 0px;
+    background-color: white;
+    width: 65%; 
+    margin-left: 18rem;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    padding: 1rem;
+    
+}
+.card2{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    
+    /* width: 100%;  */
+    grid-column: 1/ -1;
+}
+.item-pic{
+    background-image: url(images/girlpic.webp);
+    border-radius: 15px;
+    background-size: cover;
+    order: 2;
+    position: relative;
+    z-index: 1;
+  
+    
+   
+}
+.info{
+    /* display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;  */
+    padding: 20px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+   width: 100%;
+   background-color: white;
+    order: 1;
+    border-radius: 1.5rem;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+
+   
+   
+}
+.info p{
+    margin-bottom: 1rem ;
+    
+}
+
+
+                                                            /* secondary footer */
+
+
+
+
+.secondary-footer{
+    background-color: #c866e8;
+    clip-path: polygon(0 0, 100% 4.5rem, 100% 100%, 0% 100%); 
+    height: 30vh;
+    
+}
+
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.secondary-footerIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 14rem;
+    
+   
+
+}
+
+.fs-icon a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 7rem;
+    margin-left: 1.5rem;
+   
+}
+.fs-icon i{
+    margin-bottom: .5rem;
+    font-size: 3rem;
+}
+.footer-callToAction{
+    margin-top: 4rem;
+    margin-right: 8rem;
+
+}
+
+.btn-callToAction{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+    margin-right: 8rem;
+    margin-left: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: #4f467e;
+    font-size: 1rem;
+
+}
+.footer-callToAction a{
+    text-decoration: none;
+
+}
+.text-callToAction{
+     display: flex;
+     flex-direction: column;
+     margin-left: 3rem;
+     margin-top: .5rem;
+     font-size: 1.2rem;
+     color: white;
+}
+
+
+                                                            /* primary footer */
+.primary-footer{
+    background-color: rgb(43, 42, 42);
+    height: 70vh;
+}
