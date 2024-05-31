@@ -467,6 +467,85 @@ p{
 }
 
 
+
+
+
+
+                                                           /* review slider */
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-top: 2rem;
+    background-color: white;
+    width: 65%; 
+    margin-left: 18rem;
+    padding: 1rem;
+    overflow: hidden;
+    
+}
+
+.slide {
+    min-width: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    padding: 20px;
+}
+
+.image-container {
+    width: 50%;
+   
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 6rem;
+    /* align-items: center; */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.rating{
+    color: orange;
+    margin-bottom: 2rem;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 55rem;
+    border-radius: 50%;
+   color: #650e83;
+    align-items: center;
+}
+
+button.next {
+    right: 10px;
+    border-radius: 50%;
+    color: #650e83;
+    align-items: center;
+}
+
+
                                                             /* secondary footer */
 
 
@@ -548,5 +627,114 @@ p{
                                                             /* primary footer */
 .primary-footer{
     background-color: rgb(43, 42, 42);
-    height: 70vh;
+    min-height: 80vh;
+
 }
+.primary-footerLogo{
+    margin-left: 3rem;
+   
+}
+
+.footer-social{
+    height: 20px;
+    width: 20px;
+    
+    
+  
+   
+}
+.primary-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem; 
+   
+}
+.footer-social a{
+   display: inline-block;
+    
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center; /* Center align the images */
+    gap: 10px; /* Optional: add some space between the images */
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+.footer-social a img {
+    filter: invert(1); /* This will turn the images to white assuming they are originally dark */
+    width: 30px; /* Adjust the size of the icons */
+    height: auto;
+    
+}
+.footer-social a {
+    display: inline-block;
+    
+    
+    
+}
+.footer-slogan{
+    color: white;
+    margin-left: 8rem;
+}
+.footer-logo img{
+   margin-left: 8rem; 
+    margin-top: 4rem;
+
+}
+
+
+
+
+                                                      /* Primary footer links  */
+.primary-footerLinks{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 2rem;  */
+}
+.links-heading{
+    color: white;
+    
+}
+.link-block a{
+    color: rgb(170, 165, 165);
+    text-decoration: none;
+    list-style: none;
+    
+}
+.link-block ul li{
+    margin-top: .5rem;
+}
+
+.link-block{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+hr{
+    margin-top: 4rem;
+    width: 70%;
+    margin-left: 14rem;
+    box-shadow: 0 8px 16px rgba(138, 36, 36, 0.8);
+   
+}
+
+
+                                                        /* primary-footerLegal */
+
+.primary-footerLegal{
+    min-height: 30vh;
+    width: 70%; 
+    overflow: hidden;
+    font-size: 12px;
+    margin-left: 8rem;
+    color: white;
+    margin-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 4rem;
+}
+
+
+
+
+
