@@ -6,7 +6,7 @@
 
 
 /* Basic styling for the navbar */
-.navbar {
+.navbar1 {
 
    
     display: flex;
@@ -81,7 +81,7 @@ button {
     background-color:  #650e83;
     border: none;
     border-radius: 30px;
-    color: #fff;
+    color: #fff; 
     padding: 12px 15px; /* Adjust padding as needed */
     margin-left: 8px; /* Add some space between the button and other menu items */
     cursor: pointer;
@@ -96,9 +96,8 @@ button {
                                                    /* main container */
 /* banner */
 .banner{
-    background-image: url('images/Untitled\ design\ \(1\).png'); /* Add your image path here */
+    background-image: url('images/banner.jpg') ; /* Add your image path here */
     background-size: cover; /* Adjust the size of the background image */
-    /* padding: 10px 20px; Add padding from left and right  */
     height: 70vh;
     display: flex;
     align-items: center;
@@ -110,6 +109,7 @@ button {
 
 .banner img{
     height: 80vh;
+    
    
     
     
@@ -120,7 +120,7 @@ button {
 
 .title{
   
-   padding-right: 25rem;
+   margin-right: 45rem;
    margin-top: 6rem; 
     margin-bottom: 2rem;  
     font-size: 3rem;
@@ -133,7 +133,7 @@ button {
 
 
 .sub-title{
-    padding-right: 25rem;
+    margin-right: 45rem;
     margin-bottom: 2rem;
     color: white;
     font-size: 24px;
@@ -141,7 +141,7 @@ button {
 
 }
 .btn{
-    padding-right: 25rem;
+    margin-right: 45rem;
     /* padding-top: 3rem;  */
 }
 .btn1{
@@ -188,7 +188,9 @@ button i{
     flex-direction: column;
     text-align: center;
     box-sizing: border-box;
-    margin-top: 3rem;
+    margin-top: 3rem; 
+    padding-left: 20rem;
+    padding-right: 20rem;
 
 }
 h2{
@@ -224,8 +226,8 @@ p{
     
    
     background-color: white;
-    width: 65%;
-    margin-left: 18rem;
+    /* width: 65%;  */
+    margin-left: 10rem; 
     
     border-radius: 15px;
     display: grid;
@@ -735,6 +737,55 @@ hr{
 }
 
 
+                                                 /* media query */
+@media (max-width: 576px) {
+    .banner{
+        height: 100vh;
+ }
+    
+    .banner img{
+        height: 100%;
+}
+    
+    
+    .title{
+       margin-right: 6rem; 
+       margin-top: 14rem; 
+        font-size: 4rem;
+        line-height: 4.75rem;
+      
+       
+    }
+    .sub-title{
+        margin-right: 6rem;
+}
+    .btn{
+        margin-right: 8rem;
+        
+    }
+    .btn1{
+        padding: 12px 22px; /* Padding */
+        
+    }
+   
+    .btn-chat{
+        padding: 12px 22px; /* Padding */
+        
+    }
 
 
+                              /* second div */
+.content{
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+}
+   
+    
+    
+
+    
+}
+
+  
 
