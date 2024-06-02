@@ -760,7 +760,7 @@ hr{
 
 
                                                  /* media query */
-@media (max-width: 720px) {
+ @media (max-width: 720px) {
 
     .container{
         margin-top: 4rem;
@@ -780,7 +780,7 @@ hr{
     
     
     .title{
-       margin-right: 8rem; 
+       margin-right: 10rem; 
        margin-top: 14rem; 
         font-size: 4rem;
         line-height: 4.75rem;
@@ -788,10 +788,10 @@ hr{
        
     }
     .sub-title{
-        margin-right: 6rem;
+        margin-right: 7rem;
 }
     .btn{
-        margin-right: 8rem;
+        margin-right: 10rem;
         
     }
     .btn1{
@@ -893,8 +893,8 @@ button.next {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-right: 6rem;
-    margin-left: 6rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
 }
 
 .card-item{
