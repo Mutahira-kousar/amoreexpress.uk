@@ -760,7 +760,7 @@ hr{
 
 
                                                  /* media query */
- @media only screen and (min-width: 386px) and (max-width: 600px) {
+@media (max-width: 720px) {
 
     .container{
         margin-top: 4rem;
