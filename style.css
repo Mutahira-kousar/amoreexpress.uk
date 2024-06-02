@@ -5,7 +5,7 @@
 }
 
 
-/* Basic styling for the navbar */
+                                                         /* black navbar */
 .navbar1 {
 
    
@@ -31,13 +31,7 @@
 }
 
 
-                                                             /* header */
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
+                                                         /* purple navbar header  */
 .nav{
     background-color: #c866e8;
     display: flex;
@@ -92,8 +86,7 @@ button {
     justify-content: center;
     align-items: center;
 }
-
-                                                   /* main container */
+                                                           /* banner portion */
 /* banner */
 .banner{
     background-image: url('images/banner.jpg') ; /* Add your image path here */
@@ -178,11 +171,10 @@ button {
 button i{
     margin-left: 6px;
 }
-
-                                                          /* second div */
+                                                       /* services portion */
 .content{
 
-    height: 70vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -219,271 +211,143 @@ h4{
 p{
     margin-top: 1rem;
 }
+                                                             /* services simplified portion */
 
 
-                                                           /* grid */
-.grid{
-    
-   
-    background-color: white;
-    /* width: 65%;  */
-    margin-left: 10rem; 
-    
-    border-radius: 15px;
-    display: grid;
-    grid-template-columns: auto 1fr; 
-    align-items: center; 
-    padding: 1rem;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Shadow for the dropdown */
-    z-index: 1;
-    
-}
+.card {
+      margin-bottom: 20px;
+      border: 1px solid red;
+    }
 
-.div1 {
-    justify-self: start; /* Align div1 to the start (left) of the grid */
-}
+    .simplified {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Shadow for the dropdown */
+      z-index: 1;
+      border-radius: 15px;
+      padding: 1rem;
+      
+      margin: 0 auto; /* Center the container */
+    }
 
-.div2 {
-    justify-self: end; /* Align div2 to the end (right) of the grid */
-}
+    /* .all-cards {
+      margin-left: 7rem;
+    } */
 
-#grid-title{
-    font-weight: normal;
-    font-size: 2.2rem;
-    line-height: 2.75rem;
-    margin-bottom: .75rem;
-
-}
-
-.card{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    width: 100%;
-    grid-column: 1/ -1;
-}
-.item {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    text-align: center; 
-    padding: 20px; 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for the dropdown */
-    border-radius: 15px;
-}
-
-#icon {
-    margin-bottom: 10px; /* Optional: space between icon and text */
-    display: flex;
-    align-items: center;
+    .btn-simplified {
+      background-color: #c866e8;
+      color: #ffffff; /* White text */
+      border: 2px solid #c866e8; /* No border */
+      padding: 10px 20px; /* Padding */
+      border-radius: 5px; /* Rounded corners */
+      cursor: pointer; /* Cursor style */
+      transition: background-color 0.3s ease; /* Smooth transition */
+      font-size: 15px;
+      display: flex;
     justify-content: center;
-    width: 60px; /* Adjust the size as needed */
-    height: 60px; /* Adjust the size as needed */
-    border-radius: 50%; /* Make it a circle */
-   
-    margin-bottom: 10px; /* Optional: space between icon and text */
-    font-size: 24px; /* Adjust the size of the icon */
-    color: #333; /* Color of the icon */
-}
-#icon i{
-    color: white;
-}
-.icon-energy{
-    background-color: rgb(80, 159, 205); /* Background color of the circle */
-    
-}
-.icon-telecom{
-    background-color: rgb(34, 159, 153);
-
-}
-.icon-insurance{
-    background-color: rgb(232, 104, 57);
-}
-.icon-payment{
-    background-color:  #c866e8;
-}
-.icon-water{
-    background-color: rgb(18, 234, 234);
-}
-
-
-
-.btn-trans{
-    background-color: transparent;
-    border: 2px solid #898789;
-    color:#898789; /* White text */
-    padding: 10px 20px; 
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    transition: background-color 0.3s ease; /* Smooth transition */
-    font-size: 15px;
-}
-.btn-trans:hover{
-    border-color: #706f70;
-    background-color:#f0edf0;
-}
-
-
-#item-title{
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    padding-bottom: 1rem;
-}
-
-
-                                                 /* essential sevices */
-.content1{
-
-    height: 50vh;
-    display: flex;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
-    box-sizing: border-box;
-    margin-top: 3rem;
+    }
 
-}
+    .div-title {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      padding:0rem 3rem;
+      
 
-                                                        /* second card items */
-.grid2{
-    margin-top: 0px;
-    background-color: white;
-    width: 65%;
-    margin-left: 18rem;
-    
-    border-radius: 15px;
-    display: grid;
-    grid-template-columns: auto 1fr; 
-    align-items: center; 
-    padding: 1rem;
-    
-}
-.card1{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    gap: 10px;
-    width: 100%;
-    grid-column: 1/ -1;
-}
+    }
 
-.heading{
-    font-weight: bolder;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-    font-size: 1.5rem;
-    line-height: 1.75rem;
-    font-family: system-ui, sans-serif ;
-}
-.item p{
-    margin-bottom:2rem;
-}
-.icon-sorted{
-    background-color:orange;
-}
-.icon-business{
-    background-color: rgb(74, 150, 236);
-}
-.icon-help{
-    background-color: rgb(32, 182, 32);
-}
-.btn-find{
-   
-    
-    color:white; /* White text */
-    padding: 10px 20px; 
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    width: 100%;
-    font-size: 15px;
-}
+    .div1 {
+      justify-self: start;
+      margin-right: 18rem;
+    }
 
-#b1{
-    background-color:orange;
-}
-#b2{
-    background-color: rgb(74, 150, 236);
-}
-#b3{
-    background-color: rgb(32, 182, 32);
-}
+    .div2 {
+      margin-top: 1rem;
+      margin-left: 50rem;
+      justify-self: end; 
+    }
 
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+    }
 
-                                                    /* <!-- text with pitcher portion --> */
+    #icon {
+      margin-bottom: 10px; /* Optional: space between icon and text */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px; /* Adjust the size as needed */
+      height: 60px; /* Adjust the size as needed */
+      border-radius: 50%; /* Make it a circle */
+      font-size: 24px; /* Adjust the size of the icon */
+      color: #333; /* Color of the icon */
+    }
 
-.grid3{
-    margin-top: 0px;
-    background-color: white;
-    width: 65%; 
-    margin-left: 18rem;
-    border-radius: 15px;
-    display: grid;
-    grid-template-columns: auto 1fr; 
-    align-items: center; 
-    padding: 1rem;
-    
-}
-.card2{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr  ;
-    
-    /* width: 100%;  */
-    grid-column: 1/ -1;
-}
-.item-pic{
-    background-image: url(images/girlpic.webp);
-    border-radius: 15px;
-    background-size: cover;
-    order: 2;
-    position: relative;
-    z-index: 1;
-  
-    
-   
-}
-.info{
-    /* display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    text-align: center;  */
-    padding: 20px; 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
-   width: 100%;
-   background-color: white;
-    order: 1;
-    border-radius: 1.5rem;
-    text-align: left;
-    position: relative;
-    z-index: 2;
+    #icon i {
+      color: white;
+    }
 
-   
-   
-}
-.info p{
-    margin-bottom: 1rem ;
-    
-}
+    .icon-energy {
+      background-color: rgb(80, 159, 205); /* Background color of the circle */
+    }
+
+    .icon-telecom {
+      background-color: rgb(34, 159, 153);
+    }
+
+    .icon-insurance {
+      background-color: rgb(232, 104, 57);
+    }
+
+    .icon-payment {
+      background-color: #c866e8;
+    }
+
+    .icon-water {
+      background-color: rgb(18, 234, 234);
+    }
+
+    .btn-trans {
+      background-color: transparent;
+      border: 2px solid #898789;
+      color: #898789; /* White text */
+      padding: 10px 20px;
+      border-radius: 5px; /* Rounded corners */
+      cursor: pointer; /* Cursor style */
+      transition: background-color 0.3s ease; /* Smooth transition */
+      font-size: 15px;
+    }
+
+    .btn-trans:hover {
+      border-color: #706f70;
+      background-color: #f0edf0;
+    }
+
+    #item-title {
+      font-size: 1.25rem;
+      line-height: 1.875rem;
+      padding-bottom: 1rem;
+    }
 
 
-
-
-
-
+                                                     
                                                            /* review slider */
 .slider {
     position: relative;
-    width: 100%;
+    
     overflow: hidden;
     display: flex;
     margin-top: 2rem;
     background-color: white;
-    width: 65%; 
-    margin-left: 18rem;
-    padding: 1rem;
+    /* width: 65%;   */
+    margin-left: 4.5rem; 
+    padding: 1rem; 
     overflow: hidden;
     
 }
@@ -534,20 +398,162 @@ button.prev, button.next {
 }
 
 button.prev {
-    left: 55rem;
+    left: 85rem;
     border-radius: 50%;
    color: #650e83;
     align-items: center;
 }
 
 button.next {
-    right: 10px;
+    right: 10rem;
     border-radius: 50%;
     color: #650e83;
     align-items: center;
 }
 
+                                                         /* essential business services */
+.content1{
 
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 3rem;
+
+}
+                                                         /* 3 cards */
+.grid2{
+    margin-top: 0px;
+    background-color: white;
+    /* width: 65%;  */
+    margin-left: 7rem;
+    
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    padding: 1rem;
+    
+}
+.card1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+    width: 100%;
+    grid-column: 1/ -1;
+}
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.heading{
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-family: system-ui, sans-serif ;
+}
+.card-item p{
+    margin-bottom:2rem;
+}
+.icon-sorted{
+    background-color:orange;
+}
+.icon-business{
+    background-color: rgb(74, 150, 236);
+}
+.icon-help{
+    background-color: rgb(32, 182, 32);
+}
+.btn-find{
+   
+    
+    color:white; /* White text */
+    padding: 10px 20px; 
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    width: 100%;
+    font-size: 15px;
+}
+
+#b1{
+    background-color:orange;
+}
+#b2{
+    background-color: rgb(74, 150, 236);
+}
+#b3{
+    background-color: rgb(32, 182, 32);
+}
+
+
+                                                       /* text with pitcher portion */
+
+.grid3{
+    margin-top: 0px;
+    background-color: white;
+    /* width: 65%;  */
+    margin-left: 10rem;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    padding: 1rem;
+    
+    
+}
+.card2{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr  ; 
+    width: 100%;  
+    grid-column: 1/ -1;
+}
+.item-pic{
+    background-image: url(images/girlpic.webp);
+    border-radius: 15px;
+    background-size: cover;
+    order: 2;
+    position: relative;
+    z-index: 1;
+  
+    
+   
+}
+.info{
+    
+    padding: 20px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+   width: 120%;
+   
+   background-color: white;
+    order: 1;
+    border-radius: 1.5rem;
+    text-align: left;
+    position: relative;
+    z-index: 2; 
+
+   
+   
+}
+
+.info p{
+    margin-bottom: 1rem ;
+    
+}
+
+  
                                                             /* secondary footer */
 
 
@@ -557,6 +563,7 @@ button.next {
     background-color: #c866e8;
     clip-path: polygon(0 0, 100% 4.5rem, 100% 100%, 0% 100%); 
     height: 30vh;
+   
     
 }
 
@@ -585,14 +592,14 @@ button.next {
     justify-content: center;
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2rem;
     margin-top: 7rem;
     margin-left: 1.5rem;
    
 }
 .fs-icon i{
     margin-bottom: .5rem;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 .footer-callToAction{
     margin-top: 4rem;
@@ -604,12 +611,13 @@ button.next {
     display: flex;
     flex-direction: column;
     margin-top: .5rem;
-    margin-right: 8rem;
-    margin-left: 1rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    margin-right: 7rem;
+    margin-left: 2rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
     background-color: #4f467e;
     font-size: 1rem;
+    color: white;
 
 }
 .footer-callToAction a{
@@ -620,8 +628,8 @@ button.next {
      display: flex;
      flex-direction: column;
      margin-left: 3rem;
-     margin-top: .5rem;
-     font-size: 1.2rem;
+     margin-top: 1.5rem;
+     font-size: 2.2rem;
      color: white;
 }
 
@@ -716,7 +724,7 @@ button.next {
 hr{
     margin-top: 4rem;
     width: 70%;
-    margin-left: 14rem;
+    margin-left: 19rem;
     box-shadow: 0 8px 16px rgba(138, 36, 36, 0.8);
    
 }
@@ -735,10 +743,33 @@ hr{
     padding-left: 3rem;
     padding-right: 4rem;
 }
+/* .container{
+    border: 3px solid red;
+}
+.container-fluid{
+    border: 4px solid green;
+} */
+
+
+
+
+
+
+
+
 
 
                                                  /* media query */
-@media (max-width: 576px) {
+ @media only screen and (min-width: 550px) and (max-width: 600px) {
+
+    .container{
+        margin-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+                                                  /* banner */
     .banner{
         height: 100vh;
  }
@@ -749,7 +780,7 @@ hr{
     
     
     .title{
-       margin-right: 6rem; 
+       margin-right: 8rem; 
        margin-top: 14rem; 
         font-size: 4rem;
         line-height: 4.75rem;
@@ -774,18 +805,130 @@ hr{
     }
 
 
-                              /* second div */
+                              /* service portion */
 .content{
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
 }
-   
-    
-    
 
-    
+                          /* service simplified portion */
+
+
+.div-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
+.btn-simplified{
+    margin-right: 85rem;
+   margin-bottom: 1rem;
+   min-width: 180px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+} 
+
+                                                       /* review slider */
 
   
 
+.slide {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.image-container{
+      width: 100%;
+}
+.text-container{
+    width: 100%;
+}
+
+
+
+button.prev {
+    left: 3rem;
+   
+}
+
+button.prev, button.next {
+  
+    top: 60%;
+  
+}
+
+
+
+button.next {
+    right: 8rem;
+   
+   
+}
+
+   /* essential busineess services */
+.content1{
+    margin-bottom: 1rem;
+}
+
+
+              /* 3 cards */
+
+.grid2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+.card-item{
+    margin-bottom: 2rem;
+}
+
+
+                                                      /* pitcher with text portion */
+
+.grid3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+}
+/* .card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+} */
+
+
+
+
+                                                  /* secondary footer */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+    
+}
