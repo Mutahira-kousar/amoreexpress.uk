@@ -942,15 +942,18 @@ button.next {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 30vh;
 }
 .secondary-footerIcons{
     
-    padding-left: 0;
+    margin-right: 1rem;
     margin-top: 0rem;
     
    
 
+}
+.fs-icon{
+    margin-right: 1rem;
 }
 
 .fs-icon a{
@@ -962,6 +965,7 @@ button.next {
 .fs-icon i{
     margin-bottom: .5rem;
     font-size: 2rem;
+    
 }
 .footer-callToAction{
     margin-top: 2rem;
@@ -994,7 +998,7 @@ button.next {
      flex-direction: row;
      gap: 4rem;
      margin-top: 0rem;
-     font-size: 1.5rem;
+     font-size: 1rem;
    
 }
 
