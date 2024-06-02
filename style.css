@@ -521,13 +521,13 @@ button.next {
     grid-column: 1/ -1;
 }
 .item-pic{
-    background-image: url(images/girlpic.webp);
+    background-image: url(images/girlpic.webp); 
     border-radius: 15px;
     background-size: cover;
     order: 2;
     position: relative;
     z-index: 1;
-  
+    
     
    
 }
@@ -772,6 +772,10 @@ hr{
                                                   /* banner */
     .banner{
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
  }
     
     .banner img{
@@ -784,6 +788,7 @@ hr{
        margin-top: 14rem; 
         font-size: 4rem;
         line-height: 4.75rem;
+
       
        
     }
@@ -912,13 +917,13 @@ button.next {
     align-items: center;
     margin-left: 0rem;
 }
-/* .card2{
+.card2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
-} */
+}
 
 
 
@@ -929,7 +934,61 @@ button.next {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
     
+}
+.secondary-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.secondary-footerIcons{
+    
+    padding-left: 0;
+    margin-top: 0rem;
+    
+   
+
+}
+
+.fs-icon a{
+    
+    font-size: 1rem;
+   
+   
+}
+.fs-icon i{
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+.footer-callToAction{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+.btn-callToAction{
+   
+    margin-top: .5rem;
+    margin-right: 7rem;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+   
+    font-size: 1rem;
+    
+}
+
+
+
+.text-callToAction{
+    padding-top: 0;
+     
+     margin-top: 0rem;
+     font-size: 1.5rem;
+   
 }
 
 
