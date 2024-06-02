@@ -760,7 +760,7 @@ hr{
 
 
                                                  /* media query */
- @media only screen and (min-width: 576px) and (max-width: 600px) {
+ @media only screen and (min-width: 386px) and (max-width: 600px) {
 
     .container{
         margin-top: 4rem;
@@ -809,6 +809,7 @@ hr{
 .content{
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-bottom: 14rem;
 
 }
 
@@ -822,9 +823,9 @@ hr{
     align-items: center;
 }
 .btn-simplified{
-    margin-right: 85rem;
+    margin-right: 68rem;
    margin-bottom: 1rem;
-   min-width: 180px;
+   min-width: 150px;
 }
 .item{
     display: flex;
@@ -832,6 +833,10 @@ hr{
     margin-bottom: 1rem;
     justify-content: space-between;
 } 
+.simplified{
+    margin-left: 2rem;
+   
+}
 
                                                        /* review slider */
 
@@ -843,6 +848,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
     
   
 }
@@ -856,7 +862,7 @@ hr{
 
 
 button.prev {
-    left: 3rem;
+    left: -0rem;
    
 }
 
