@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  system-ui, sans-serif;
+}
+
+.container{
+    /* border: 2px solid rebeccapurple;  */
+}
+
+/* banner */
+
+.banner{
+    background-image: url('images/aboutpage.jpg') ; /* Add your image path here */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    color: black;
+    font-size: 8rem;
+    line-height: 1.5;
+    
+
+}
+.sub-title{
+    color: black;
+    margin-bottom: 7rem;
+}
+/* service portion */
+
+.content{
+    height: 50vh;
+    margin-bottom: 2rem;
+}
+
+/* 6 cards */
+.grid2{
+    margin-top: 0rem;
+
+}
+#btn4{
+    background-color:  #650e83;
+}
+#b5{
+    background-color: #d05b5b;
+}
+#b6{
+    background-color: #149f96;
+}
+
+.icon-mobile{
+    background-color: #650e83;
+}
+.icon-insurance{
+    background-color: #d05b5b;
+
+}
+.icon-payment{
+    background-color: #149f96;
+}
+
+
+/* why choose us */
+
+
+
+/* list */
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.pic{
+   
+    height: auto;
+    width: 40%;
+   
+    background-size: cover; 
+}
+
+.pic img{
+    width: 100%;
+    height: auto;
+}
+.list{
+    width: 60%;
+    list-style: none;
+    margin-left: 2rem;
+   
+    /* list-style: georgian inside url('images/icons8-tick-48.png');  */
+    
+    
+}
+
+/* get in touch */
+
+.btn-chat{
+   border: 1px solid #650e83;
+   color: #650e83;
+}
+
+
+
+
+
+                                                        /* media query */
+ @media (max-width: 720px){
+    .title{
+        font-size: 5rem;
+        line-height: 1;
+        margin-left: 4rem;
+        margin-bottom: 3rem;
+    }
+    .sub-title{
+        margin-left: 3rem;
+       
+    }
+    .banner{
+        height: 50vh;
+    }
+
+
+    /* services */
+
+    .content{
+        height: 30vh;
+    }
+
+    /* essential business*/
+   .content1 {
+    margin-bottom: 5rem;
+
+    }
+
+
+     /* why choose us */
+
+     .list-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+     }
+     .pic{
+        width: 80%;
+        margin-left: 2rem;
+     }
+     .list{
+        margin-top: 2rem;
+     }
+     .list li{
+        margin-top: 1.5rem;
+        
+        
+     }
+ }
