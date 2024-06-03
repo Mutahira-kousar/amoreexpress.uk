@@ -5,73 +5,8 @@
 }
 
 
-                                                         /* black navbar */
-/* .navbar1 {
+                                                         /* navbar */
 
-   
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-    color: white;
-    padding: 5px;
-    font-size: 15px;
-    background-color: #333;
-   padding-left: 40rem;
-    height: 30px; 
-}
-
-#select1 {
-    background-color: #333;
-    color: #fff; 
-   font-size: 15px;
-    border: none; 
-   
-    
-} */
-
-
-
-
-                                                         /* purple navbar header  */
-/* .nav{
-    background-color: #c866e8;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100px;
-    color: white;
-    padding: 5px;
-    font-size: 15px;
-   
-    
-}
-.logo img{
-    margin-left: 155px;
-    height: 25px;
-}
-
-
-.right ul li{
-    list-style: none;
-    
-
-}
-.right ul{
-    padding-top: 5px;
-    display: flex;
-    gap: 40px; 
-   
-}
-
-select {
-    background-color: #c866e8;
-    color: #fff; 
-   font-size: 15px;
-    border: none;
-   
-    
-}*/
 
 button {
     background-color:  #650e83;
@@ -339,11 +274,14 @@ p{
     }
 
     .icon-payment {
-      background-color: #c866e8;
+      background-color: #a53379;
     }
 
     .icon-water {
       background-color: rgb(18, 234, 234);
+    }
+    .icon-mobile{
+        background-color: #650e83;
     }
 
     .btn-trans {
