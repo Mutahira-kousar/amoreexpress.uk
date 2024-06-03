@@ -6,7 +6,7 @@
 
 
                                                          /* black navbar */
-.navbar1 {
+/* .navbar1 {
 
    
     display: flex;
@@ -22,17 +22,19 @@
 }
 
 #select1 {
-    background-color: #333;/* Dropdown background color */
-    color: #fff; /* Dropdown text color */
+    background-color: #333;
+    color: #fff; 
    font-size: 15px;
-    border: none; /* Remove default border */
+    border: none; 
    
     
-}
+} */
+
+
 
 
                                                          /* purple navbar header  */
-.nav{
+/* .nav{
     background-color: #c866e8;
     display: flex;
     align-items: center;
@@ -63,23 +65,53 @@
 }
 
 select {
-    background-color: #c866e8;/* Dropdown background color */
-    color: #fff; /* Dropdown text color */
+    background-color: #c866e8;
+    color: #fff; 
    font-size: 15px;
-    border: none; /* Remove default border */
+    border: none;
    
     
-}
+}*/
 
 button {
     background-color:  #650e83;
     border: none;
     border-radius: 30px;
     color: #fff; 
-    padding: 12px 15px; /* Adjust padding as needed */
-    margin-left: 8px; /* Add some space between the button and other menu items */
+    padding: 12px 15px; 
+    margin-left: 8px; 
     cursor: pointer;
    
+} 
+
+.custom-navbar{
+    background-color: #c866e8 !important;
+    color: white !important; 
+    padding: 2rem !important; 
+    margin-bottom: 0rem !important;
+}
+.nav-text{
+    color: #650e83 !important;
+   
+}
+.toggle-btn{
+    color: white !important;
+}
+.btn-nav {
+    background-color:  #650e83 !important;
+    border: none !important;
+    border-radius: 30px !important;
+    color: #fff !important; 
+    padding: 12px 15px !important; /* Adjust padding as needed */
+    margin-left: 8px !important; /* Add some space between the button and other menu items */
+    cursor: pointer !important;
+   
+}
+.custom-nitem{
+    margin-left: 1rem !important;
+}
+.custom-dropdown{
+    background-color:  #e0aef3 !important;
 }
 .btn{
     display: flex;
@@ -96,6 +128,7 @@ button {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    
    
    
 }
@@ -751,6 +784,7 @@ hr{
 }
 .container-fluid{
     border: 4px solid green;
+    
 } */
 
 
