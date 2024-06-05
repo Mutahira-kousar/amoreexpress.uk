@@ -4,9 +4,7 @@
     font-family:  system-ui, sans-serif;
 }
 
-.container{
-    /* border: 2px solid rebeccapurple;  */
-}
+
 
 /* banner */
 
@@ -32,7 +30,7 @@
 /* service portion */
 
 .content{
-    height: 50vh;
+    height: 50vh; 
     margin-bottom: 2rem;
 }
 
@@ -99,12 +97,36 @@
     
 }
 
+                                                           /* our commitment portion */
+.commit{
+    background-color: #f4fcfc;
+    border-radius: 15px;
+    padding: 2rem;
+    border: 1px solid  #cdf0f0;
+    width: 88%;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+}
+.commit p{
+    margin-bottom: 2rem;
+}
+
 /* get in touch */
 
 .btn-chat{
    border: 1px solid #650e83;
    color: #650e83;
 }
+
+
+/* call to action portion */
+.action-cart{
+   width: 330px;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+
+}
+
 
 
 
@@ -130,12 +152,22 @@
     /* services */
 
     .content{
-        height: 30vh;
+        height: 30vh; 
     }
 
+
+   /*  6 carts*/
+   .main-div{
+    margin-top: 2rem;
+   }
+   
     /* essential business*/
    .content1 {
     margin-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
     }
 
@@ -159,4 +191,35 @@
         
         
      }
+
+     /* our commitment portion */
+     .commit{
+        margin-top: 65rem;
+       width: 100%;
+      margin-left: 0rem;
+      margin-bottom: 0rem;
+     }
+
+
+     /* get in touch */
+     .getin-touch{
+        margin-top: .5rem;
+     }
+     .btn1{
+        margin-bottom: 1rem;
+        width: 100%;
+     }
+     .btn-chat{
+        width: 100%;
+     }
+
+
+
+                                                            /* contact us page */
+
+
+
+
+    
+     
  }
