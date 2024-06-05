@@ -907,17 +907,16 @@ button.next {
 .footer-container{
   
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
+   
+  
     
 }
-.secondary-footer{
-   
-   
-}
+
 .secondary-footerIcons{
-    
+    margin-right: 15rem;
   
    
     
@@ -943,6 +942,9 @@ button.next {
    
     display: flex;
   flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  
   
    
     
@@ -952,16 +954,19 @@ button.next {
 .btn-callToAction{
    
    
-    margin-top: 1rem;
+    /* margin-top: 1rem;  */
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-right: 1rem; 
+    
+   
 }
 
 
 
 .text-callToAction{
    font-size: 1rem;
-   margin-top: 3rem;
+   margin-top: 0rem;
    
 }
 
@@ -970,17 +975,19 @@ button.next {
 .primary-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 .primary-footerLinks{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 hr{
-    margin-left: 7rem;
+    margin-left: 0rem;
+    
+    width: 100%;
 
 }
 .primary-footerLegal{
@@ -996,9 +1003,10 @@ hr{
    
 }
 .footer-social{
-    margin-right: 5rem;
+    margin-right: 4rem;
     margin-bottom: 1rem;
 }
+
 
 
 
