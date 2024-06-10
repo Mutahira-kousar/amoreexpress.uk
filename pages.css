@@ -126,6 +126,67 @@
    margin-top: 2rem;
 
 }
+                                                               /* energy page */
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.text-div{
+    width: 50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-left: 0rem;
+    background-color: rgb(250, 255, 255);
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 2%;
+}
+.text-div p{
+    margin-bottom: 2rem;
+}
+.text-div li{
+    list-style: none;
+}
+
+/* left text */
+.main-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+
+/* service simplified assistant portion */
+
+
+.assistant{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+                                                            /* telecom page */
+.icon-text{
+    display: flex;
+    flex: row;
+    
+}
+.icon-text p{
+    margin-left: 1rem;
+}
+#mini-icon i{
+    font-size: 2rem;
+     color: #650e83 !important;
+}
+
+
+
 
 
 
@@ -153,12 +214,14 @@
 
     .content{
         height: 30vh; 
+       
     }
+   
 
 
    /*  6 carts*/
    .main-div{
-    margin-top: 2rem;
+    margin-top: 2rem; 
    }
    
     /* essential business*/
@@ -217,7 +280,48 @@
 
                                                             /* contact us page */
 
+.contact{
+    margin-top: 9rem;
+}
 
+                                              /* energy page */
+/* <!-- left pitcher with right text portion --> */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 3rem;
+}
+.text-div{
+    width: 100%;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+#energy-commit{
+    margin-top: 1rem;
+}
+
+
+                            /* insurance page */
+.insurance-btn{
+    display: none;
+}
+.insurance-title{
+    font-size: 4rem;
+}
+.insurance-subtitle{
+    font-size: 2rem;
+}
 
 
     
