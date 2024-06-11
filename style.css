@@ -25,6 +25,14 @@ button {
     padding: 2rem !important; 
     margin-bottom: 0rem !important;
 }
+.custom-navbar img{
+    width: 100px; /* Set width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px; /* Add margin around the logo */
+  position: relative; /* Set the logo's position to relative */
+  top: -50px; /* Move the logo 20px upwards */
+    
+}
 .nav-text{
     color: #650e83 !important;
    
@@ -149,6 +157,7 @@ button i{
     text-align: center;
     box-sizing: border-box;
     margin-top: 3rem; 
+    margin-bottom: 10rem;
     padding-left: 20rem;
     padding-right: 20rem;
 
@@ -192,6 +201,7 @@ p{
       z-index: 1;
       border-radius: 15px;
       padding: 1rem;
+      
       
       margin: 0 auto; /* Center the container */
     }
@@ -578,6 +588,7 @@ button.next {
 
 }
 
+
 .btn-callToAction{
     display: flex;
     flex-direction: column;
@@ -615,6 +626,14 @@ button.next {
 .primary-footerLogo{
     margin-left: 3rem;
    
+}
+.footer-logo img{
+    width: 100px; /* Set width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add margin around the logo */
+    position: relative; /* Set the logo's position to relative */
+    top: -20px; /* Move the logo 20px upwards */
+
 }
 
 .footer-social{
@@ -789,7 +808,7 @@ hr{
 .content{
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-bottom: 14rem;
+    margin-bottom: 26rem;
 
 }
 
